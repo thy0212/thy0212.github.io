@@ -1,35 +1,21 @@
-## Portfolio
+## Business Projects Portfolio
 
 ---
 
-### Category Name 1 
+### Smart Service 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Improving livability planning process](https://thy0212.github.io/amvest_smart_service)
+<img src="images/amvest.png?raw=true"/>
+**Objective**: Given certain constraints, predicting the number of amenities that will maximize the livability score.
 
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+**Information shown**:
+- Predicted livability score
+- Sufficient number of amenities
+  
+**Tools used**: Excel, Tableau, R, and Python.
 
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+**Applied case**: Urban planning.
 
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+**Challenges**: Missing values, data transformation, external data, and inconsistent data.
 
 ---
-
-
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->

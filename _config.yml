@@ -1,11 +1,11 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Thy Nguyen # your name (or website title) here
+logo: "/images/avatar.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Business Intelligence & Data Analyst
   <br><br>
-  Second description 
+  Solid knowledge in behavioral psychology, statistics, data analytics, and smart service design. Expertise in Power BI, R, Python.
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/nguyenanhthy/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
