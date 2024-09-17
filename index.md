@@ -6,7 +6,7 @@
 
 [Improving livability planning process](https://thy0212.github.io/amvest_smart_service)
 <img src="images/amvest.png?raw=true"/>
-**Objective**: Given certain constraints, predicting the number of amenities that will maximize the livability score.
+**Objective**: Given demographic features of an area, predicting the number of amenities that will maximize the livability for that area.
 
 **Information shown**:
 - Predicted livability score
