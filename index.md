@@ -18,7 +18,7 @@
 
 **Skills**: Excel, Tableau, R, ETL, Exploratory Data Analysis, Hyperparameter Tuning, Git.
 
-References: [Improving livability planning process](https://thy0212.github.io/amvest_smart_service)
+- References: [Improving livability planning process](https://thy0212.github.io/amvest_smart_service)
 ---
 ## Image Analysis: Face Detection and Classification
 
@@ -39,4 +39,4 @@ Euclidean distance between the focal image vector and the eigenface vectors, res
 ## Time Series Analysis
 
 ---
-# Recommendation System
+## Recommendation System
