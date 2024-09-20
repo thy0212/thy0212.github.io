@@ -34,7 +34,7 @@ References: [Improving livability planning process](https://thy0212.github.io/am
    
 - Algorithm Development: Develop two predictive models (brand detection and product type detection) using support vector machines (SVM).
   
-- Model evaluation: Accuracy, recall and F1 score of the the two SVM models are significantly higher than the baseline, indicating high performance.
+**Results**: Accuracy, recall and F1 score of the the two SVM models are significantly higher than the baseline, indicating high performance.
   
 **Skills**: Image Analysis, R, Machine Learning.
 
