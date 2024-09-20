@@ -18,25 +18,29 @@
 
 **Skills**: Excel, Tableau, R, ETL, Exploratory Data Analysis, Hyperparameter Tuning, Git.
 
-- References: [Improving livability planning process](https://thy0212.github.io/amvest_smart_service)
----
-## Image Analysis: Face Detection and Classification
+References: [Improving livability planning process](https://thy0212.github.io/amvest_smart_service)
 
-**Objective**: Given an image, detect the name of person on the image.
+---
+## Image Analysis: Product-Brand Detection
+
+**Objective**: Given an image of a clothing item, detect the brand name and product type (e.g., shoes or earrings) of the item.
 
 **Method**: 
-- Image Pre-Processing: Process 13,233 facial images with *Grayscale model*, representing images in 64x64 pixels in size, then apply PCA to reduce the large set of image files to a smaller set of vectors.
-- Facial Information Extraction: Extract the eigenvectors which are related to principal components and represent the eigenfaces.
-- Algorithm Development: Build image detection algorithm by using Euclidean distance. The algorithm works by computing the
-Euclidean distance between the focal image vector and the eigenface vectors, resulting in 100\% accuracy.
-
+- Image Pre-Processing:
+  1. Process colorful images, retaining the RGB and HSV color histograms while removing the alpha channel, which captures transparency, from the image.
+  2. Extract the RGB and HSV color histograms.
+  3. Extract the shape of items by transforming the images to grayscale, applying the Canny algorithm, and then applying the Hough Line Detection algorithm.
+  4. Encode textures using local binary patterns.
+   
+- Algorithm Development: Develop two predictive models (brand detection and product type detection) using support vector machines (SVM).
+  
+- Model evaluation: Accuracy, recall and F1 score of the the two SVM models are significantly higher than the baseline, indicating high performance.
+  
 **Skills**: Image Analysis, R, Machine Learning.
----
-## Text Mining
-
 
 ---
 ## Time Series Analysis
+
 
 ---
 ## Recommendation System
