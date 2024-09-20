@@ -39,8 +39,21 @@ References: [Improving livability planning process](https://thy0212.github.io/am
 **Skills**: Image Analysis, R, Machine Learning.
 
 ---
-## Time Series Analysis
+## Time Series Analysis: Beer Sale Forcast
+**Objective**: Monthly beer sales is provided in millions of barrels in the period of 192 months. Fit the model to the data to forcast the sale of beer.
 
+**Method**: 
+- Pre-processing the time-series data:
+1. Perform EDA to examine stationarity, trend, and seasonality of the data.
+2. Detrend the data because there is a significant overall increasing trend
+3. Examine the ACF and PACF plots for de-trended data. The detrended beer sales is seasonality and no trend, hence, it is suggested to apply SARMA.
 
+- Model selection: _Specific to general_
+   1. Estimate an ARMA(2, 0) model with 1 seasonal lag
+   2. Based on the residual diagnostics (ACF and Q-Q plot of the residuals and the p-values of the Ljung-Box test), increase the AR lags to higher numbers, until the residual plots do not show major problems.
+  
+**Results and Business Recommendation**: 
+- Compare Bayesian Information Criteria (BIC) of all models, ARMA(4,0) model is the best performance model, meaning that beer sales of a given month depends on the he last 4 months' sales.
+  
 ---
 ## Recommendation System
