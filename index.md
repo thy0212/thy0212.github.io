@@ -18,7 +18,7 @@
 
 **Skills**: Excel, Tableau, R, ETL, Exploratory Data Analysis, Hyperparameter Tuning, Git.
 
-References: [Improving livability planning process](https://thy0212.github.io/amvest_smart_service)
+For detailed report: [Improving livability planning process](https://thy0212.github.io/amvest_smart_service)
 
 ---
 ## Image Analysis: Product-Brand Detection
@@ -54,6 +54,8 @@ References: [Improving livability planning process](https://thy0212.github.io/am
   
 **Results and Business Recommendation**: 
 - Compare Bayesian Information Criteria (BIC) of all models, ARMA(4,0) model is the best performance model, meaning that beer sales of a given month depends on the he last 4 months' sales.
+
+For the R code of the solution, please read [here](https://github.com/thy0212/descriptive-predictive-analysis/blob/main/tutorial%203/tutorial3.Rmd)
   
 ---
 ## Recommendation System
