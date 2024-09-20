@@ -40,22 +40,35 @@ For detailed report: [Improving livability planning process](https://thy0212.git
 
 ---
 ## Time Series Analysis: Beer Sale Forcast
-**Objective**: Monthly beer sales is provided in millions of barrels in the period of 192 months. Fit the model to the data to forcast the sale of beer.
+**Objective**: Monthly beer sales data is provided in millions of barrels over a period of 192 months. The goal is to fit a model to the data in order to forecast beer sales.
 
 **Method**: 
 - Pre-processing the time-series data:
-1. Perform EDA to examine stationarity, trend, and seasonality of the data.
-2. Detrend the data because there is a significant overall increasing trend
-3. Examine the ACF and PACF plots for de-trended data. The detrended beer sales is seasonality and no trend, hence, it is suggested to apply SARMA.
+1. Perform exploratory data analysis (EDA) to examine the stationarity, trend, and seasonality of the data.
+2. Detrend the data to address the significant overall increasing trend.
+3. Examine the ACF and PACF plots for the detrended data. The detrended beer sales has seasonality with no trend; therefore, it is recommended to apply a SARMA model.
 
 - Model selection: _Specific to general_
    1. Estimate an ARMA(2, 0) model with 1 seasonal lag
-   2. Based on the residual diagnostics (ACF and Q-Q plot of the residuals and the p-values of the Ljung-Box test), increase the AR lags to higher numbers, until the residual plots do not show major problems.
+   2. Based on the residual diagnostics (ACF and Q-Q plot of the residuals, and the p-values from the Ljung-Box test), increase the AR lags until the residual plots do not show major issues.
   
 **Results and Business Recommendation**: 
-- Compare Bayesian Information Criteria (BIC) of all models, ARMA(4,0) model is the best performance model, meaning that beer sales of a given month depends on the he last 4 months' sales.
+- Compare the Bayesian Information Criterion (BIC) across all models. The ARMA(4, 0) model shows the best performance, indicating that beer sales in a given month depend on the sales of the last four months.
 
 For the R code of the solution, please read [here](https://github.com/thy0212/descriptive-predictive-analysis/blob/main/tutorial%203/tutorial3.Rmd)
   
 ---
-## Recommendation System
+## Recommender System
+
+**Objectives**: The dataset includes ratings from 100 customers for various products on the website. The goal is to build a recommender system using KNN algorithm.
+
+**Method**: 
+- Clean the data by removing missing values.
+- Calculate recommendations by applying user-based KNN.
+- Fine-tune the model by testing various values of K and evaluate the model's prediction accuracy using MAE and RMSE.
+
+**Results and Business Recommendation**: 
+- Models with K values between 20 and 30 show the highest performance.
+- Besides highly rated products, it is suggested that the system should also display new items. Since users want to explore new options, the recommender system may not be valuable to them if it only recommends similar items.
+
+
