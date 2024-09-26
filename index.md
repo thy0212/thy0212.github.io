@@ -27,7 +27,7 @@ For detailed report: [Improving livability planning process](https://thy0212.git
 
 **Method**: 
 - Image Pre-Processing:
-  1. Process colorful images, retaining the RGB and HSV color histograms while removing the alpha channel, which captures transparency, from the image.
+  1. Process 2,184 colorful images, retaining the RGB and HSV color histograms while removing the alpha channel, which captures transparency, from the image.
   2. Extract the RGB and HSV color histograms.
   3. Extract the shape of items by transforming the images to grayscale, applying the Canny algorithm, and then applying the Hough Line Detection algorithm.
   4. Encode textures using local binary patterns.
